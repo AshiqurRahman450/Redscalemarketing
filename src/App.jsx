@@ -1016,7 +1016,7 @@ function App() {
               </div>
 
               <a
-                href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20register%20for%20the%20FREE%20Google%20My%20Business%20Workshop"
+                href="https://wa.me/919360670147?text=Hi%2C%20I%20want%20to%20register%20for%20the%20FREE%20Google%20My%20Business%20Workshop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-white text-primary hover:bg-gray-100 px-8 py-4 md:px-12 md:py-5 rounded-xl font-bold text-lg md:text-xl transition-all duration-300 hover:scale-105 shadow-2xl"
