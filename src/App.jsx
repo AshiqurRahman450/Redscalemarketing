@@ -899,8 +899,12 @@ function App() {
               </div>
 
               <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-                <div className="w-48 h-48 md:w-64 md:h-64 bg-gradient-to-br from-primary to-primary-dark rounded-full flex items-center justify-center flex-shrink-0 shadow-2xl">
-                  <span className="text-6xl md:text-8xl font-bold text-white">R</span>
+                <div className="w-48 h-48 md:w-64 md:h-64 bg-gradient-to-br from-primary to-primary-dark rounded-full flex-shrink-0 shadow-2xl overflow-hidden ring-4 ring-primary/30">
+                  <img
+                    src="/images/mentor.png"
+                    alt="Mentor"
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
 
                 <div className="text-center md:text-left">
