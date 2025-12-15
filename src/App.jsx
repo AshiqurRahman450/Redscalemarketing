@@ -626,21 +626,22 @@ function App() {
 
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="container py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-primary to-primary-dark rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg md:text-xl">R</span>
+        <div className="container py-2 md:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-1.5 md:gap-2">
+            <div className="w-8 h-8 md:w-12 md:h-12 bg-gradient-to-br from-primary to-primary-dark rounded-lg flex items-center justify-center flex-shrink-0">
+              <span className="text-white font-bold text-sm md:text-xl">R</span>
             </div>
-            <div>
-              <h1 className="text-lg md:text-xl font-bold text-gray-900">Redscale<span className="text-primary">Marketing</span></h1>
+            <div className="min-w-0">
+              <h1 className="text-base md:text-xl font-bold text-gray-900 truncate">Redscale<span className="text-primary">Marketing</span></h1>
               <p className="text-xs text-gray-500 hidden md:block">Local Growth Experts</p>
             </div>
           </div>
           <a
             href="#register"
-            className="bg-primary hover:bg-primary-dark text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-bold text-sm md:text-base transition-all duration-300 hover:scale-105 shadow-lg"
+            className="bg-primary hover:bg-primary-dark text-white px-3 py-1.5 md:px-6 md:py-3 rounded-lg font-bold text-xs md:text-base transition-all duration-300 hover:scale-105 shadow-lg whitespace-nowrap flex-shrink-0"
           >
-            Register Now
+            <span className="hidden sm:inline">Register Now</span>
+            <span className="sm:hidden">Join</span>
           </a>
         </div>
       </header>
